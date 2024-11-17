@@ -27,6 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "islami": MessageLookupByLibrary.simpleMessage("اسلامي"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
         "light": MessageLookupByLibrary.simpleMessage("المضئ"),
+        "numberOfTasbeeh": MessageLookupByLibrary.simpleMessage("عدد التسبيح"),
         "quran": MessageLookupByLibrary.simpleMessage("قرأن"),
         "radio": MessageLookupByLibrary.simpleMessage("ٌاذاعة"),
         "settings": MessageLookupByLibrary.simpleMessage("اعدادات"),

@@ -169,6 +169,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Number of Tasbeeh`
+  String get numberOfTasbeeh {
+    return Intl.message(
+      'Number of Tasbeeh',
+      name: 'numberOfTasbeeh',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

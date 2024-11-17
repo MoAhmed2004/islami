@@ -10,6 +10,6 @@
     "theme":"Theme",
     "light":"Light",
     "dark":"Dark",
-    "settings":"Settings"
-
+    "settings":"Settings",
+    "numberOfTasbeeh":"Number of Tasbeeh"
 }

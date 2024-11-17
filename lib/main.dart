@@ -28,13 +28,13 @@ class MyApp extends StatelessWidget {
       darkTheme:AppStyle.darkTheme ,
       themeMode: settingsProvider.themeMode,
       initialRoute: HomeScreen.routeName,
-      localizationsDelegates: [
+      localizationsDelegates: const [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      supportedLocales: [
+      supportedLocales: const [
         Locale("en"),
         Locale("ar"),
       ],
